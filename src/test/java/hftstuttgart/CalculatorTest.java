@@ -15,7 +15,7 @@ public class CalculatorTest {
     @Test
     public void prodNumbers() {
         Calculator calc = new Calculator();
-        int prod = calc.prod(3, 7);
-        assertEquals(21, prod);
+        int prod = calc.prod(2, 11);
+        assertEquals(22, prod);
     }
 }
